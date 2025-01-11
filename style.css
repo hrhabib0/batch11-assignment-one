@@ -277,6 +277,7 @@ header > .header-right > button:hover{
     padding: 13px 26px;
     border: none;
     border-radius: 8px;
+    margin-top: 20px;
 }
 .news-card{
     background-color: #FFFFFF;
