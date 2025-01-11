@@ -3,6 +3,9 @@
     padding: 0px;
     /* background-color: #f5f5f5; */
 }
+body{
+    background-color: #f5f5f5;
+}
 .container{
     width: 90%;
     margin: 0px auto;
@@ -43,6 +46,7 @@ header > .header-right > button:hover{
     padding: 80px 100px;
     border-radius: 24px;
     margin-top: 20px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,3 +71,108 @@ header > .header-right > button:hover{
     border-radius: 8px;
     margin-top: 20px;
 }
+
+
+/* Vision of Bangladesh section style */
+.vision-one{
+    margin-bottom: 80px;
+}
+.vision-one-headline > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+/* vision one card design */
+.vision-one-item{
+    display: flex;
+    justify-content: space-between;
+}
+.innovation-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    border: 1px solid #0e0e0e17;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.innovation-card > .card-image > img {
+    width: 64px;
+    height: 64px;
+}
+.innovation-card > .card-text{
+    width: 240px;
+    color: #0e0e0ebe;
+
+}
+.innovation-card > .card-text > h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* vision part two style */
+.vision-two-text > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.vision-two-text > p{
+    color: #0e0e0ebe;
+    margin: 20px 0px;
+}
+.vision-two-project{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.vision-card{
+    background-color: #548ff54b;
+    padding: 22px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vision-card > .card-image > img{
+    width: 64px;
+    height: 64px;
+}
+.vision-card > .card-text{
+    width: 346px;
+}
+.vision-card > .card-text > h1{
+    font-size: 20px;
+    color: #0e0e0ed0;
+    margin-bottom: 10px;
+}
+.vision-card > .card-text > p{
+    font-size: 16px;
+    color: #0e0e0ebe;
+}
+.vision-card > .card-button > button{
+    background-color: #5490F5;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+/* short code tecnique */
+.card-two{
+    background-color: #C6E4D6;
+}
+.button-two{
+    background-color: #09A15C !important;
+}
+.card-three{
+    background-color: #F7EBCF;
+}
+.button-three{
+    background-color: #FFC239 !important;
+}
+
+
+/* vision part three style */
