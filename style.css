@@ -43,7 +43,7 @@ header > .header-right > button:hover{
 /* Banner Section Design  */
 .banner{
     background-color: #C6E4D6;
-    padding: 80px 100px;
+    padding: 80px 90px;
     border-radius: 24px;
     margin-top: 20px;
     margin-bottom: 80px;
@@ -59,7 +59,7 @@ header > .header-right > button:hover{
 }
 .banner-text > h1 {
     color: #0E0E0E;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -71,7 +71,10 @@ header > .header-right > button:hover{
     border-radius: 8px;
     margin-top: 20px;
 }
-
+.banner-text > button:hover{
+    background-color: #5490F5;
+    transition: 1s;
+}
 
 /* Vision of Bangladesh section style */
 .vision-one{
@@ -96,6 +99,10 @@ header > .header-right > button:hover{
     border: 1px solid #0e0e0e17;
     border-radius: 16px;
     background-color: #FFFFFF;
+}
+.innovation-card:hover{
+    background-color: #09a15d59;
+    transition: 0.5s;
 }
 .innovation-card > .card-image > img {
     width: 64px;
@@ -160,6 +167,11 @@ header > .header-right > button:hover{
     border: none;
     border-radius: 8px;
 }
+.vision-card > .card-button > button:hover{
+    background-color: #ffffff;
+    color: #09A15C;
+    transition: 1s;
+}
 /* short code tecnique */
 .card-two{
     background-color: #C6E4D6;
@@ -167,13 +179,24 @@ header > .header-right > button:hover{
 .button-two{
     background-color: #09A15C !important;
 }
+.button-two:hover{
+    background-color: #ffffff !important;
+    transform: scale(1.2);
+    color: #09A15C;
+    transition: 1s;
+}
 .card-three{
     background-color: #F7EBCF;
 }
 .button-three{
     background-color: #FFC239 !important;
 }
-
+.button-three:hover{
+    background-color: #ffffff !important;
+    transform: scale(0.8);
+    color: #09A15C;
+    transition: 1s;
+}
 
 /* vision part three style */
 .vision-spech{
@@ -228,8 +251,6 @@ header > .header-right > button:hover{
 .card-text{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-
 }
 .news-text > h1 {
     font-size: 32px;
@@ -302,6 +323,10 @@ header > .header-right > button:hover{
     border: 1px solid #0e0e0e13;
     border-radius: 16px;
 }
+.amount:hover{
+    background-color: rgba(255, 196, 0, 0.589);
+    transition: 0.5s;
+}
 .selected-amount{
     background-color: #C6E4D6;
 }
@@ -313,12 +338,12 @@ header > .header-right > button:hover{
     width: 100%;
     padding: 20px 40px;
     border: 1px solid #0e0e0e13;
+    outline: none;
     box-sizing: border-box;
 }
 .donation-button{
     margin: 30px 0px;
     text-align: center;
-
 }
 .donation-button > button {
     color: #ffffff;
@@ -326,4 +351,53 @@ header > .header-right > button:hover{
     background-color: #006A50;
     border: 1px solid #0e0e0e0c;
     border-radius: 8px;
+}
+.donation-button > button:hover{
+    background-color: rgba(0, 81, 255, 0.76);
+    transition: 0.5s;
+}
+
+
+/* Subscription part style  */
+.subscription{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
+.subscription-content{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+.subscription-title h1{
+    font-size: 40px;
+}
+.subscription-content p{
+    color: #0e0e0ebe;
+    width: 70%;
+    margin: 30px auto;
+}
+.subscription-form{
+    display: flex;
+    justify-content: center;
+}
+.subscription-form form{
+    width: 750px;
+    height: 56px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 30px;
+    outline: none;
+}
+form button{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    color: #ffffff;
 }
