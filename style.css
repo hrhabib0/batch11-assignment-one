@@ -264,3 +264,66 @@ header > .header-right > button:hover{
     border-radius: 24px;
     margin: 30px 0px;
 }
+
+
+/* Donation part style  */
+.donation{
+    padding: 30px 0px;
+}
+.donation-title{
+    text-align: center;
+    width: 80%; 
+    margin: 0px auto;
+}
+.donation-title > h1 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.donation-title > p {
+    color: #0e0e0ebe;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.donation-chart{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 10px auto 30px;
+}
+.amount{
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #0e0e0e13;
+    border-radius: 16px;
+}
+.selected-amount{
+    background-color: #C6E4D6;
+}
+.donation-input{
+    width: 80%; 
+    margin: 0px auto;
+}
+.donation-input input {
+    width: 100%;
+    padding: 20px 40px;
+    border: 1px solid #0e0e0e13;
+    box-sizing: border-box;
+}
+.donation-button{
+    margin: 30px 0px;
+    text-align: center;
+
+}
+.donation-button > button {
+    color: #ffffff;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: 1px solid #0e0e0e0c;
+    border-radius: 8px;
+}
